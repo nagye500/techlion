@@ -1,0 +1,80 @@
+.service{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 8vh;
+    grid-column-gap: 50px;
+    justify-content: center;
+    height: 70vh;
+    grid-column-gap: 200px;
+   
+    
+}
+
+
+
+
+
+
+
+.service ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    flex-direction: column;
+    text-shadow: white;
+    width: 100%; 
+    overflow-wrap: break-word;
+    font-size: 1em;
+    list-style-type:  none ;
+    
+    color: teal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+     
+
+
+}
+a{
+    text-decoration: none;
+    color: rgba(43, 46, 46, 0.438);
+    cursor: pointer;
+    padding-top: 10px;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+     
+     
+}
+.fa:hover{
+ color: green;
+}
+
+
+
+@media only screen and (max-width:  1380px){
+
+    
+    
+    
+    .service{
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 100px;
+        font-size: 1em;
+    }
+    .service ul{font-size: 1em;
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
